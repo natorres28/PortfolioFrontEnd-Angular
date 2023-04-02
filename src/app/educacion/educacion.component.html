@@ -1,0 +1,26 @@
+<section class="educacion">   
+    
+    <div class="container text-center" style="background-color: #f1f1fb; padding: 2% 3%; border-radius: 10px;">
+      <div class="row row-cols-1">
+        <h2 style="color: darkslateblue">EDUCACIÓN</h2>
+        <h4 style="color:darkmagenta">Formación Académica</h4>
+      </div>
+      <div class="row row-cols-2">
+      <div *ngFor="let carrera of formacion_academica" class="row row-cols-1">  
+        <div class="col" style="color: midnightblue"><h5 style="color: mediumvioletred;">Universitario {{carrera.estado}}</h5>Título: {{carrera.titulo}}  {{carrera.facultad}} {{carrera.institucion}} {{carrera.lugar}} Año: {{carrera.anio}}
+        </div>
+        <div class="col">
+          <span class="faud">
+          <a [href]="carrera.enlace" target="_blank"><img [src]="carrera.facultadlogo" height="90" [alt]="carrera.altfacultad" class="logo"/>
+          </a></span>
+         
+          <span class="unc" style="padding: 0px, 50px, 0px, 50px;"><img [src]="carrera.institucionlogo"  width="250" [alt]="carrera.altinstitucion" class="img-fluid"></span>
+        </div>
+      </div>  
+
+      </div>
+    </div>
+    
+  
+
+</section>

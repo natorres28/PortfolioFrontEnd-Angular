@@ -1,0 +1,43 @@
+<section class="certificados">
+    <div class="container text-center" style="background-color: #f1f1fb; padding: 2% 2%; border-radius: 10px; height:max-content" >
+      <div class="row row-cols-1">
+        <div class="col"><h3 style="color: darkslateblue">CERTIFICADOS</h3></div>
+      </div>
+      <div class="row">
+        <div class="col" style="color: darkslateblue">
+          Además realicé numerosos talleres y workshops, orientados principalmente al arte
+        </div>
+      </div>
+      <div class="row row-cols-3">  
+        <div class="col">
+        </div>
+  
+        <div class="col">
+          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/certificadoferia1.jpg" class="d-block w-100" alt="Certificado colaboradora feria del libro">
+              </div>
+              <div *ngFor="let
+              certificado of certificados" class="carousel-item">
+                <img [src]="certificado.foto" class="d-block w-100" [alt]="certificado.alt">
+              </div>
+              
+            </div>
+            <div class="col">
+        </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+  </section>

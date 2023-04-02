@@ -1,0 +1,60 @@
+<!-- El Modal para Login -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Iniciar sesión</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+        <form [formGroup]="form" (ngSubmit)="onLogin($event)">
+              <div class="form-group mb-3 row">
+                <label for="email" class="col-sm-2 col-form-label">Email:</label>
+                <div class="col-sm-10">
+                  <!-- ver si hace falta agregar el estilo de border danger para el mail valid en login css, min 123 del video 36 -->
+                  <input type="text"  class="form-control" id="email" [class.border-danger]="MailValid">
+                </div>
+              </div>
+
+              <!-- Gracias al getter que configramos en el controlador -->
+              <div *ngIf="Mail?.errors && Mail?.touched">
+                <p *ngIf="Mail?.hasError('required')" class="error">
+                 El Email es requerido.
+               </p> 
+               <p *ngIf="Mail?.hasError('email')" class="error">
+                 El formato del Email debe ser válido.
+               </p>
+               </div>
+
+              <div class="form-group mb-3 row">
+                <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña:</label>
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="inputPassword">
+                </div>
+
+                <!-- Gracias al getter que configramos en el controlador -->
+              <div *ngIf="Password?.errors && Password?.touched">
+                <p *ngIf="Password?.hasError('required')" class="error">
+                 La Contraseña es requerida.
+               </p> 
+               <p *ngIf="Password?.errors?.['minlength']" class="error">
+                 La Contraseña debe tener 8 o más caracteres.
+               </p>
+               </div>
+
+              </div>
+
+              <!-- El boton de iniciar sesion debe estar dntro del form -->
+              <div class="modal-footer">
+                <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">Iniciar Sesión</button>
+              </div>
+
+
+            </form>
+                   
+        </div>
+        
+      </div>
+    </div>
+  </div>

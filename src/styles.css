@@ -1,0 +1,212 @@
+.bg-negro {
+    background-color:darkslateblue;
+}
+
+body {
+    background-color:lavender;
+    }
+
+
+
+a {
+  text-decoration: none;
+}    
+    
+.list-group{
+    --bs-list-group-bg: transparent;
+    --bs-list-group-border-color: transparent;
+}
+
+.fa-brands.fa-github.fa-2x:hover {
+    --bs-text-opacity: 1;
+    
+    color: gold !important;
+}
+
+.fa-brands.fa-linkedin.fa-2x:hover {
+    --bs-text-opacity: 1;
+    color: gold !important;
+}
+
+.fa-brands.fa-instagram.fa-2x:hover {
+    --bs-text-opacity: 1;
+    color: gold !important;
+}
+
+.fa-solid.fa-2x.fa-user-lock.text-white:hover {
+    --bs-text-opacity: 1;
+    color:aquamarine !important;
+    transform: scale(1.3);
+}    
+
+.fa-solid.fa-user.fa-2x.text-white:hover {
+    --bs-text-opacity: 1;
+    color:aquamarine !important;
+    transform: scale(1.3);    
+    
+}
+
+section {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    
+}
+
+section.banner {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background-image: url(assets/images/bannernaranja1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: 0%;
+    
+    display: block;
+    align-items:center;
+}
+
+
+.logo:hover{
+    
+    transform: scale(1.1);
+}
+
+
+h1.intro {
+    padding-top: 1em;
+    color:blanchedalmond;
+    position:static;
+    font-size: 4.9vw;
+    
+    
+    align-items: center;
+    font-family: Calibri;
+}
+
+h2.descripcion {
+    padding-bottom: 70pt;    
+    color:blanchedalmond;    
+    
+    align-items: center;
+    font-family: Calibri;
+}
+
+
+section.presentacion {
+    color: darkslateblue;
+    margin-top: 0%;
+    background-color: blanchedalmond;      
+}
+
+.h5, h5 {
+   
+    font-weight:normal;
+}    
+
+.row {
+    --bs-gutter-x: 1rem;
+    --bs-gutter-y: 100;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1%;
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    
+  
+    column-width: 140px;
+    
+    
+} 
+
+.progress.uno {
+    --bs-progress-bar-bg: #e9967a;
+    
+}
+
+.progress.dos {
+    --bs-progress-bar-bg: #38c76a;
+    
+}
+
+
+.progress {
+    --bs-progress-height: 1.5rem;
+    --bs-progress-bg: #9ea2a5;
+      
+}
+
+/* div.p-4.h-100.p-4 {
+    width: 200px;
+    height: 200px;
+    text-decoration-line:overline;
+    flex-wrap: inherit;
+} */
+
+ .btn-outline-primary {
+    --bs-btn-color: darkslateblue;
+    --bs-btn-border-color:transparent;
+    --bs-btn-hover-color: darkmagenta;
+    --bs-btn-bg: #f1f1fb;
+    
+    --bs-btn-hover-border-color: darkmagenta;
+    --bs-btn-focus-shadow-rgb: 13,110,253;
+    /* --bs-btn-active-color: #0d6efd; */
+    --bs-btn-hover-bg: transparent;
+    --bs-btn-active-border-color: #fff;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #0d6efd;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #0d6efd;
+    --bs-gradient: none;
+    width: 200px;
+    height: 200px;
+    text-decoration-line:overline;
+    flex-wrap: inherit;
+     
+}  
+
+.btn-secondary.dropdown-toggle {
+    --bs-btn-color: darkslateblue;
+    --bs-btn-border-color:transparent;
+    --bs-btn-hover-color: darkmagenta;
+    --bs-btn-bg: #f1f1fb;
+    
+    --bs-btn-hover-border-color: darkmagenta;
+    --bs-btn-focus-shadow-rgb: 13,110,253;
+    /* --bs-btn-active-color: #0d6efd; */
+    --bs-btn-hover-bg: transparent;
+    --bs-btn-active-border-color: #fff;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #0d6efd;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #0d6efd;
+    --bs-gradient: none;
+    width: 200px;
+    height: 200px;
+    text-decoration-line:overline;
+    flex-wrap: inherit;
+     
+}
+
+.dropdown-menu {
+    --bs-dropdown-link-hover-bg: #adc0e4;  
+}
+
+div.modal-content.datos{
+    
+    width: 500px;
+}
+
+section.footer {
+    margin-top: 5%;
+    margin-bottom: 0%;
+    height: 50px;
+    background-color:darkslateblue;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    /* position: absolute;
+    bottom: 0; */
+    width: 100%;
+}

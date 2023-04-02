@@ -1,0 +1,39 @@
+<section class="skills">
+    
+    <div class="container text-center" style="color: darkslateblue; background-color: #f1f1fb; padding: 2% 2%; border-radius: 10px;">
+ 
+   
+     <!-- aca arrancan las 3 columnas contenedoras -->
+      <div class="row row-cols-3">
+        <!-- columna 1 de 3 hard -->
+        <div class="col-4" style="align-self:first baseline;">
+          <div class="col"><h2>HARD SKILLS</h2></div>
+          
+          <div class="col p-2"><div *ngFor="let habilidad of hard_skills" class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"> 
+            <div class="progress-bar" [style.width.%]="habilidad.valor"> {{habilidad.tipo}} </div></div>
+          
+          </div>
+          
+              </div>   
+          
+        <!-- columna 2 de 3 soft -->
+        <div class="col-4" style="align-self:first baseline;">
+
+          <div class="col"><h2>SOFT SKILLS</h2></div>
+
+          <div class="col p-2"><div *ngFor="let habilidad of soft_skills" class="progress uno" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" [style.width.%]="habilidad.valor">{{habilidad.tipo}}</div></div></div>
+        </div>
+            
+        
+          <!-- columna 3 de 3 idiomas -->
+        <div class="col-4" style="align-self:first baseline;">
+          <div class="col"><h2>IDIOMAS</h2></div>
+          <div class="col p-2"><div *ngFor="let habilidad of idiomas" class="progress dos" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar pt-50" [style.width.%]="habilidad.valor">{{habilidad.tipo}}</div></div></div></div>
+          
+      
+    
+    </div>
+    </div>
+  </section> 

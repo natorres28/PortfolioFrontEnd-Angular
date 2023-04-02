@@ -1,0 +1,212 @@
+{
+        "nombre": "Natalia Torres",
+        "puesto": "Full Stack Developer Jr.",
+        "profileimg": "./assets/images/fotodeperfil.png",
+        "presentacion": "Hola! Bienvenid@ a mi Portfolio. Graduada como Diseñadora Industrial, aprendí a desarrollar productos funcionales, de interfase intuitiva - fáciles de usar -, y visualmente atractivos. Son estos valores los que te propongo aplicar en tu página web, para potenciar tu negocio.",
+    
+
+
+"experiencias":[
+    {
+        "id": 2,
+        "descripcion": "Asesoramiento y acompañamiento del cliente, para transformar sus necesidades en requerimientos proyectuales, y estos en una propuesta de producto."
+    },
+
+    {
+        "id": 1,
+        "descripcion": "Supervisora de procesos de producción, de control de calidad y logísticos."
+    }
+
+],
+
+"formacion_academica":[
+    {
+        "id": 0,
+        "estado": "finalizado",
+        "titulo": "Diseñadora Industrial.",
+        "facultad": "Facultad de Arquitectura, Urbanismo y Diseño.",
+        "institucion": "Universidad Nacional de Córdoba.",
+        "lugar": "Argentina.",
+        "anio": "2019.",
+        "enlace": "https://faud.unc.edu.ar/",
+        "facultadlogo": "./assets/images/logofaud.png",
+        "institucionlogo": "./assets/images/logounc.png"
+    },
+
+    {
+        "id": 1,
+        "estado": "en curso",
+        "titulo": "Licenciatura en Artes Visuales, Nivel IV.",
+        "facultad": "Facultad de Artes.",
+        "institucion": "Universidad Nacional de Córdoba.",
+        "lugar": "Argentina.",
+        "anio": "2018.",
+        "enlace": "https://artes.unc.edu.ar/", 
+        "facultadlogo": "./assets/images/logoartes.png",
+        "altfacultad": "Faud Logo",
+        "institucionlogo": "./assets/images/logounc.png",
+        "altinstitucion": "UNC Logo"
+    }
+
+],
+
+"cursos":[
+    {
+        "id": 0,
+        "nombre": "Argentina Programa: #SéProgramar",
+        "escuela": "Instituto Nacional de Tecnología Industrial (INTI).",
+        "lugar": "Modalidad Virtual.",
+        "anio": "2022.",
+        "enlace": "https://argentinaprograma.inti.gob.ar/",
+        "alt": "Logo Argentina Programa",
+        "escuelalogo": "./assets/images/logoargprogcolores.png"
+    },
+
+    {
+        "id": 1,
+        "nombre": "Dirección de Arte",
+        "escuela": "La Lumière, Escuela de Cine y Fotografía.",
+        "lugar": "Córdoba, Argentina.",
+        "anio": "2015.",
+        "enlace": "https://www.escuelalalumiere.com.ar/",
+        "alt": "Logo La Lumière",
+        "escuelalogo": "./assets/images/logolalumiere.png"
+    },
+
+    {
+        "id": 2,
+        "nombre": "Curso de Dominio y Uso de la Lengua Inglesa",
+        "escuela": "Cursando Nivel 4, Facultad de Lenguas, Universidad Nacional de Córdoba.",
+        "lugar": "Argentina.",
+        "anio": "2019.",
+        "enlace": "https://www.lenguas.unc.edu.ar/",
+        "alt": "Logo Facultad de Lenguas",
+        "escuelalogo": "./assets/images/logolenguas.png"
+    }
+],
+
+"certificados":[
+    {
+        "id": 0,
+        "foto": "./assets/images/certificadoferia1.jpg",
+        "alt": "Certificado colaboradora feria del libro"
+    },
+    {
+        "id": 1,
+        "foto": "./assets/images/certificadoferia2.jpg",
+        "alt": "Certificado asistente feria del libro"
+    },
+    {
+        "id": 2,
+        "foto": "./assets/images/certificadohistorieta.jpg",
+        "alt": "Certificado historieta"
+    },
+    {
+        "id": 3,
+        "foto": "./assets/images/certificadolalumiere1.jpg",
+        "alt": "Certificado dirección de arte y escenografía"
+    },
+    {
+        "id": 4,
+        "foto": "./assets/images/certificadolalumiere2.jpg",
+        "alt": "Certificado dirección de arte y vestuario"
+    },
+    {
+        "id": 5,
+        "foto": "./assets/images/diplomadiseñoindustrial.jpg",
+        "alt": "Diploma Diseño Industrial"
+    }
+],
+
+"docencia":[
+    {
+        "id": 0,
+        "cátedra": "Cátedra de Dibujo I",
+        "nivel": "Nivel II",
+        "carrera": "Carrera de Licenciatura en Artes Visuales",
+        "facultad": "Facultad de Artes",
+        "institucion": "Universidad Nacional de Córdoba",
+        "lugar": "Argentina",
+        "inicio": "2013",
+        "fin": "2014"
+    }
+],
+
+"hard_skills":[
+    {
+        "id": 0,
+        "tipo": "HTML",
+        "valor": "80"
+    },
+    {
+        "id": 1,
+        "tipo": "CSS",
+        "valor": "65"
+    },
+    {
+        "id": 2,
+        "tipo": "BOOTSTRAP",
+        "valor": "70"
+    },
+    {
+        "id": 3,
+        "tipo": "ANGULAR",
+        "valor": "40"
+    },
+    {
+        "id": 4,
+        "tipo": "MySQL",
+        "valor": "40"
+    },
+    {
+        "id": 5,
+        "tipo": "SPRING BOOT",
+        "valor": "40"
+    }
+
+],
+
+"soft_skills":[
+    {
+        "id": 0,
+        "tipo": "FLEXIBILIDAD Y PACIENCIA",
+        "valor": "90"
+    },
+    {
+        "id": 1,
+        "tipo": "CAPACIDAD ANALÍTICA",
+        "valor": "90"
+    },
+    {
+        "id": 2,
+        "tipo": "COMPROMISO Y RESPONSABILIDAD",
+        "valor": "100"
+    },
+    {
+        "id": 3,
+        "tipo": "TRABAJO EN EQUIPO",
+        "valor": "100"
+    },
+    {
+        "id": 4,
+        "tipo": "MANEJO DE GRUPOS DE TRABAJO",
+        "valor": "75"
+    },
+    {
+        "id": 5,
+        "tipo": "CAPACIDAD DE APRENDIZAJE CONSTANTE",
+        "valor": "100"
+    }
+
+],
+
+"idiomas":[
+    {
+        "id": 0,
+        "tipo": "INGLÉS",
+        "valor": "75"
+    }
+]
+
+
+}

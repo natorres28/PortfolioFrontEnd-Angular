@@ -1,0 +1,19 @@
+<section class="cursos">
+  
+    <div class="container text-center" style="background-color: #f1f1fb; padding: 2% 2%; border-radius: 10px;">
+    <div class="row row-cols-1">
+      <div class="col"><h3 style="color: darkslateblue">CURSOS</h3></div>
+    </div>
+    <div class="row row-cols-3" style="color: midnightblue;">
+      <div *ngFor="let curso of cursos" class="col"><h5 style="color: mediumvioletred; font-size: 1em;">{{curso.nombre}}</h5>
+        {{curso.escuela}} Año {{curso.anio}}</div>
+      
+      <div *ngFor="let curso of cursos" class="col text-black"><a [href]="curso.enlace" target="_blank">
+        <img [src]="curso.escuelalogo" width="200"
+             [alt]="curso.alt" class="img-fluid logo"/>
+      </a></div>
+      
+    </div>
+    </div>                              
+                                                             
+  </section>
